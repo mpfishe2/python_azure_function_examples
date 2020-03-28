@@ -1,0 +1,19 @@
+{
+    "scriptFile": "__init__.py",
+    "bindings": [
+      {
+          "name": "claimpdfsblob",
+          "type": "blobTrigger",
+          "direction": "in",
+          "path": "container_name/{file}.csv",
+          "connection": "STORAGE_ACCOUNT_CONN_STR"
+      },
+      {
+          "type": "eventHub",
+          "name": "$return",
+          "eventHubName": "frbotHub",
+          "connection": "EVENT_HUB_CONN_STR",
+          "direction": "out"
+      }
+    ]
+  }

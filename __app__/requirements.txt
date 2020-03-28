@@ -1,0 +1,4 @@
+azure-functions
+azure-storage-blob
+PyPDF2
+pandas
