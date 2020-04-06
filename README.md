@@ -56,4 +56,4 @@ If you ever need to publish from a different tenant than the one that loads as t
 4. Enter the tenant/directory ID that you want it to login into (see picture below):  
 5. Log in and you should now be in that context  
   
-![Example Configuration](media\how_to_publish_function_to_different_tenant.png?raw=true "Example Configuration")
+![](media/how_to_publish_function_to_different_tenant.png)
